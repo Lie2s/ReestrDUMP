@@ -1,0 +1,10 @@
+[package]
+name = "reestr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.27.0"
+winapi = { version = "0.3.9", features = ["winuser", "windef"] }
+serde_json = "1.0"
+winreg = "0.10"
